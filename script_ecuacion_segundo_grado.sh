@@ -44,7 +44,7 @@ function valorDeVariable_a_0() {
 }
 
 function valorDeVariable_a_No0() {
-    RADICANDO=$(echo "($VALOR_B*$VALOR_B) - (4 * $VALOR_A*$VALOR_C)" | bc -l)
+    RADICANDO=$(echo "($VALOR_B * $VALOR_B) - (4 * $VALOR_A * $VALOR_C)" | bc -l)
 
     if test $RADICANDO -lt "0" ; do
         echo "El discriminante sale negativo, por lo que la ecuación no tiene solución real"
